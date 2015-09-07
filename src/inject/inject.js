@@ -8,10 +8,11 @@ chrome.extension.sendMessage({}, function(response) {
         clearInterval(readyStateCheckInterval);
         var song = new Audio('src/deathgrips-esque.mp3');
         song.play();
-        $('*').css('background-color','cyan');
+
 		$('*').css('fontSize','large');
-		$('*').css('fontFamily','Comic sans');
-		$('*').css('font-color','red');
+    $('*').css('background-color', 'black');
+		$('*').css('color', 'lime');
+		$('*').css('font-family', 'Courier New');
 
         // Walk through all the nodes to get all text nodes.
         // Thanks to: http://stackoverflow.com/a/5904945
