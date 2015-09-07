@@ -16,11 +16,10 @@ chrome.extension.sendMessage({}, function(response) {
 		
 	//	$('img').attr("src","https://potatogamers.net/forums/data/MetaMirrorCache/static.fjcdn.com_pictures_Rare_pepe_thread_post_a_rare_of_favorite_pepes_any_and_228afe_5509854.jpg");
 		
-        $('*').css('background-color','#280000 ');
-		$('*').css('fontSize','large');
-		$('*').css('fontFamily','Comic sans');
-		$('*').css('font-color','red');
-
+       	$('*').css('fontSize','large');
+  		  $('*').css('background-color', 'black');
+		$('*').css('color', 'lime');
+		$('*').css('font-family', 'Courier New');
         // Walk through all the nodes to get all text nodes.
         // Thanks to: http://stackoverflow.com/a/5904945
         // and also: http://stackoverflow.com/a/9452386
