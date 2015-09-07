@@ -2,7 +2,7 @@ chrome.extension.sendMessage({}, function(response) {
     var readyStateCheckInterval = setInterval(function() {
     if (document.readyState === "complete") {
         clearInterval(readyStateCheckInterval);
-<<<<<<< HEAD
+
         //BLARE HORNS UNTIL THEY CLICK MIXTAPE
         
        //var audio = new Audio('deathgripsesque.mp3');
@@ -21,7 +21,7 @@ chrome.extension.sendMessage({}, function(response) {
   		  $('*').css('background-color', 'black');
 		$('*').css('color', 'lime');
 		$('*').css('font-family', 'Courier New');
-=======
+
         var song = new Audio('src/deathgrips-esque.mp3');
         song.play();
 
@@ -30,7 +30,7 @@ chrome.extension.sendMessage({}, function(response) {
 		$('*').css('color', 'lime');
 		$('*').css('font-family', 'Courier New');
 
->>>>>>> origin/master
+
         // Walk through all the nodes to get all text nodes.
         // Thanks to: http://stackoverflow.com/a/5904945
         // and also: http://stackoverflow.com/a/9452386
